@@ -10,7 +10,7 @@ O ROS2-T265-PX4 é um projeto destinado a facilitar a integração do sensor T26
 
 1. Clone este repositório para o seu sistema:
 
- `git clone https://github.com/edra-unb-fga/ROS2-T265-PX4.git`
+ ```git clone https://github.com/edra-unb-fga/ROS2-T265-PX4.git```
 
 2. Compile o projeto utilizando os seguintes comandos:
 ```
@@ -57,7 +57,7 @@ ROS2-T265-PX4 is a project designed to facilitate the integration of the T265 se
 
 1. Clone this repository to your system: 
 
- `git clone https://github.com/edra-unb-fga/ROS2-T265-PX4.git`
+ ```git clone https://github.com/edra-unb-fga/ROS2-T265-PX4.git```
 
 2. Compile the project using the following commands:
 ```
