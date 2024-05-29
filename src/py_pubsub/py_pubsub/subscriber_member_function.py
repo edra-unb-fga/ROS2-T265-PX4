@@ -13,7 +13,7 @@ class VisualInertialOdometryPublisher(Node):
         self.odometry_publisher_ = self.create_publisher(VehicleOdometry, '/fmu/in/vehicle_visual_odometry', 10)
         self.odometry_subscription_ = self.create_subscription(
             Odometry,
-            '/camera/pose/sample',
+            '/t265/pose/sample',
             self.odometry_callback,
             qos_profile=qos_profile_sensor_data
         )
